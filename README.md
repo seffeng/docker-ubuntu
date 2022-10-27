@@ -2,7 +2,7 @@
 
 ## 版本
 
-* [jammy , 22.04 , 22.04.1 , latest](https://github.com/seffeng/docker-ubuntu/tree/22.04)
+* [jammy , 22.04 , 22.04.1](https://github.com/seffeng/docker-ubuntu/tree/22.04)
 
 ## 功能
 
