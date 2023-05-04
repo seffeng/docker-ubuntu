@@ -7,10 +7,10 @@ RUN \
  sed -i 's/security.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list &&\
  echo 'Asia/Shanghai' > /etc/timezone &&\
  touch /etc/localtime &&\
- apt update && apt install -y tzdata &&\
+ apt-get update && apt-get install -y tzdata &&\
  cp /etc/localtime /etc/localtime.bak &&\
- apt purge -y tzdata &&\
- apt clean &&\
+ apt-get purge -y tzdata &&\
+ apt-get clean &&\
  mv /etc/localtime.bak /etc/localtime &&\
  rm -rf /var/lib/apt/lists/* &&\
  rm -rf /var/cache/apt/*
