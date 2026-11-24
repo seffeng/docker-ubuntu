@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ubuntu:resolute
 
 LABEL author="zxf <seffeng@live.com>"
 

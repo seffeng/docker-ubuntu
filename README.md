@@ -2,7 +2,7 @@
 
 ## 版本
 
-* [jammy , 22.04](https://github.com/seffeng/docker-ubuntu/tree/22.04)
+* [resolute , 26.04](https://github.com/seffeng/docker-ubuntu/tree/26.04)
 
 ## 功能
 
